@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,100&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hair.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="bodycolor">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light" style= "background-color: rgb(230, 158, 124)";>
+        <a class="navbar-brand" href="bootstrapNine.html" style="font-family: 'Cormorant Garamond', serif;">Liv Camille</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="bootstrapNine.html" style="font-family: 'Cormorant Garamond', serif;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-family: 'Cormorant Garamond', serif;">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'Cormorant Garamond', serif;">
+                Book an Appointment
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Hair Extensions</a>
+                <a class="dropdown-item" href="#">Balayage</a>
+                <a class="dropdown-item" href="#">Hair Cut</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+<!--Welcome to this page-->
+ <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class ="col-12">
+                <h1 class="display-4">Wanting Hair Extensions?</h1>
+            </div>
+            <hr>
+        <div class="col-12">
+            <p class="lead">Here is where you tell me a little about yourself. This isn't a consultation or booking yet, but will end with you getting more info and being one step closer to fabulous hair. </p>
+        </div>
+    </div>
+</div>
+<br>
+      <!--Card-->
+
+    <div class="row text-center padding">    
+        <div  class="col-xs-12 col-sm-6  col-md-4">
+            <div id="align" class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="hairExtPic.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Vera Happy</h5>
+                  <p class="card-text">"Liv made the process so easy. I loved how involved she was with the whole process. So glad I decided to do this for myself!"</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+        </div>
+
+          <!--Form-->
+        <div class="col-sm-12 col-md-4">
+            <form id="formborder">
+                
+                    <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                      </div>
+                    </div>
+                <div class="form-group text-center">
+                  <label for="exampleFormControlInput1" >Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="hairlvr@gmail.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1" >Are you currently wearing extensions?</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Yes</option>
+                    <option>No</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2" > If so, how long have you worn extensions? If never, select zero.</label>
+                  <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>0</option>
+                    <option>0-3 Months</option>
+                    <option>4-12 Months</option>
+                    <option>1-3 Years</option>
+                    <option>3+ Years</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">What method of extensions have you had and what has been your experience with them?</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+
+        <!--Card-->
+
+        <div class="col-sm-12 col-md-4">
+            <div id="alignagain" class="card text-center" style="width: 18rem;">
+                <img class="card-img-top" src="hairExtPic2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Lova Goodstyle</h5>
+                  <p class="card-text">"BEST place to get hair extensions done in town. They are the best I've ever had and I have been getting extensions for years. HIGHLY recommend."</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+      <!--Table-->
+      <table style="width: 100%;"  id= "tableDesign" class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Length of Hair</th>
+            <th scope="col">Install Time </th>
+            <th scope="col">Price</th>
+            <th scope="col">Maintenance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">14 Inches</th>
+            <td>2 Hours</td>
+            <td>$500</td>
+            <td>Every Six Weeks</td>
+          </tr>
+          <tr>
+            <th scope="row">18 Inches</th>
+            <td>2.5 Hours</td>
+            <td>$800</td>
+            <td>Every Six Weeks</td>
+          </tr>
+          <tr>
+            <th scope="row">22 Inches</th>
+            <td>3 Hours</td>
+            <td>$1000</td>
+            <td>Every Six Weeks</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

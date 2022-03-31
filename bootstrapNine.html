@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,100&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hair.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<!--Navigation Bar-->
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: rgb(230, 158, 124);">
+
+    <div class="container-fluid">
+        <a class="navbar-brand" href="bootstrapNine.html" style="font-family: 'Cormorant Garamond', serif;">Liv Camille</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mc-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="font-family: 'Cormorant Garamond', serif;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-family: 'Cormorant Garamond', serif;">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: 'Cormorant Garamond', serif;">
+                Book an Appointment 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="hairExt.html">Hair Extensions</a>
+                <a class="dropdown-item" href="#">Balayage</a>
+                <a class="dropdown-item" href="#">Hair Cut</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </div>
+ </nav>
+
+<!--- Picture Carousel-->
+<div id="slides" class="carousel slide" data-ride="carousel" class = "active">
+<ul class = "carousel-indicators">
+    <li data-target="#slides" data-slide-to="0"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+    <li data-target="#slides" data-slide-to="3"></li>
+    <li data-target="#slides" data-slide-to="4"></li>
+</ul>
+
+<div class = "carousel-inner">
+    <div class="carousel-item active">
+        <img src="LivMainTwo.jpg">
+        <div class="carousel-caption">
+            <h1 class="display-2">Liv Camille</h1>
+            <h3>Professional Hair Stylist based in Mountain Home, AR</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">Contact Me</button>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img id=hairOne src="hairTryOne.jpeg">
+    </div>
+    <div class="carousel-item">
+        <img src="hairTryTwo.jpeg">
+    </div>
+    <div class="carousel-item">
+        <img src="hairTryThree.jpeg">
+    </div>
+    <div class="carousel-item">
+        <img src="hairTryFour.jpeg">
+    </div>
+</div>
+</div>
+
+<!--Jumbotron-->
+<div class="container-fluid"> 
+    <div class ="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <p class="lead">Specializing in Balayage, Hand-Tied Hair Extensions, and Lived-In Color.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Learn More</button></a>
+        </div>
+    </div>    
+    </div>
+<!--Welcome-->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class ="col-12">
+            <h1 class="display-4">Welcome</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">Hey there! I'm Liv Camille McMaster and I have been a hair stylist for 4 years. You can find me making hair gorgeous at Muse Salon in Mountain Home, AR.</p>
+        </div>
+    </div>
+</div>
+
+<!--Three Columns-->
+<div class="container-fluid padding">
+    <div class="row text-center padding">    
+        <div class="col-xs-12 col-sm-6  col-md-4">
+            <i class="fa-brands fa-instagram"></i>
+            <h3>Instagram</h3>
+        </div>
+        <div class="col-xs-12 col-sm-6  col-md-4">
+            <i class="fa-brands fa-facebook"></i>
+            <h3>Facebook</h3>
+        </div>
+        <div class="col-sm-12 col-md-4">
+            <i class="fa-brands fa-pinterest"></i>
+            <h3>Pinterest</h3>
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+
+
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
